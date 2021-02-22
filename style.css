@@ -72,3 +72,36 @@
   margin-bottom: 5px;
   margin-right: 5px;
 }
+
+.nav-three {
+  width: 100%;
+  background-color: yellow;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+}
+
+
+.highlights1{
+  display:block;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  background-color: blue; 
+}
+
+.highlights2{
+  display:block;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  background-color: grey; 
+}
+
+.highlights3{
+  display:block;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  background-color: green; 
+}
