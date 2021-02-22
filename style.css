@@ -1,2 +1,72 @@
-@media only screen and (max-width: 760px) {
+.top-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+}
+
+.nav-one {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin-right: 300px;
+}
+
+.nav-two {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.second-nav {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.second-left-nav {
+  width: 1000px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.middle-nav {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 5px;
+  margin-right: 100px;
+  color: darkgray;
+  font-size: small;
+}
+
+.tnw-logo {
+  width: 12%;
+  height: auto;
+  box-sizing: border-box;
+  background-color: black;
+  padding: 10px 20px;
+}
+
+.search-icon {
+  width: 60px;
+
+  color: darkgray;
+  box-sizing: border-box;
+  padding-left: 30px;
+  border-left: 1px solid gray;
+  margin-bottom: 20;
 }
