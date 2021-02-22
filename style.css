@@ -42,6 +42,7 @@
   justify-content: flex-start;
   align-items: center;
 }
+
 .middle-nav {
   width: 400px;
   display: flex;
@@ -51,7 +52,6 @@
   margin-bottom: 5px;
   color: darkgray;
   font-size: 9px;
-  margin-bottom: 5px;
 }
 
 .tnw-logo {
@@ -67,7 +67,6 @@
   color: darkgray;
   box-sizing: border-box;
   border-left: 1px solid gray;
-  box-sizing: border-box;
   padding-left: 5px;
   margin-bottom: 5px;
   margin-right: 5px;
@@ -78,7 +77,8 @@
   background-color: yellow;
   color: black;
   text-align: center;
-  padding: 5px 5px;
+  padding: 2px 2px;
+  font-size: 9px;
 }
 
 .highlights1 {
@@ -97,7 +97,6 @@
   box-sizing: border-box;
   padding-top: 5px;
   padding-bottom: 5px;
-  box-sizing: border-box;
   background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Gemini2-duplicates-monitor-alert-e1611566958933-796x420.png");
 }
 
@@ -106,9 +105,83 @@
   box-sizing: border-box;
   width: 100%;
   height: auto;
-  box-sizing: border-box;
   background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
   padding-top: 5px;
   padding-bottom: 5px;
   margin-top: 10px;
+}
+
+h3 {
+  color: orangered;
+}
+
+.more {
+  color: red;
+  position: relative;
+}
+
+.funding-one {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.funding-two {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.funding-three {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.funding-four {
+  display: none;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.ring {
+  background-color: red;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  font-size: large;
+}
+
+.price {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: wheat;
+  text-align: center;
+}
+
+.series {
+  width: 100%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: wheat;
+  text-align: center;
+}
+
+.brief {
+  border-bottom: 1px solid darkgoldenrod;
+  padding-left: 200px;
+}
+
+.mobile {
+  padding-left: 200px;
+}
+
+.image {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  top: 138%;
+  left: 5%;
 }
