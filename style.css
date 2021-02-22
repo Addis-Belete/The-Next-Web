@@ -81,27 +81,34 @@
   padding: 5px 5px;
 }
 
-
-.highlights1{
-  display:block;
+.highlights1 {
+  display: block;
   width: 100%;
   height: auto;
   box-sizing: border-box;
-  background-color: blue; 
+  background-color: blue;
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
 }
 
-.highlights2{
-  display:block;
+.highlights2 {
+  display: block;
   width: 100%;
   height: auto;
   box-sizing: border-box;
-  background-color: grey; 
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Gemini2-duplicates-monitor-alert-e1611566958933-796x420.png");
 }
 
-.highlights3{
-  display:block;
+.highlights3 {
+  display: block;
+  box-sizing: border-box;
   width: 100%;
   height: auto;
   box-sizing: border-box;
-  background-color: green; 
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
 }
