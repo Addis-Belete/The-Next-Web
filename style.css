@@ -211,7 +211,6 @@ body {
     padding-bottom: 20px;
   }
 
-  }
   .footer-icons {
     box-sizing: border-box;
     width: 100%;
@@ -230,9 +229,11 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
+
   .footer-icons li {
     padding-top: 50px;
   }
+
   .footer-links {
     box-sizing: border-box;
     width: 100%;
@@ -287,8 +288,7 @@ body {
     left: 24%;
     top: 10px;
   }
-
-
+}
 @media only screen and (min-width: 768px) {
   .top-nav {
     display: flex;
@@ -325,6 +325,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: -4px;
   }
 
   .second-left-nav {
@@ -354,13 +355,11 @@ body {
     padding: 15px;
   }
 
-  
-
   .search-icon {
     color: darkgray;
     box-sizing: border-box;
-    border-left: 1px solid gray;
-    padding: 15px;
+    border-left: 1px solid black;
+    padding: 10px;
     margin-bottom: 5px;
     margin-right: 5px;
   }
@@ -373,31 +372,35 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 12px;
+    margin-top: -5px;
   }
 
   .highlights {
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
   }
+
   .high2-3 {
     display: grid;
     grid-row: 1fr 1fr;
     grid-gap: 10px;
   }
+
   .highlights1 {
-    display: block;
     width: 100%;
-    height: auto;
     padding-top: 10px;
     padding-bottom: 5px;
-    margin-bottom: 10px;
+    margin-bottom: -1px;
     box-sizing: border-box;
     background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
   }
+
   .highlights1 img {
     display: none;
   }
+
   .highlights2 {
     display: block;
     width: 100%;
@@ -425,20 +428,164 @@ body {
   .more {
     color: red;
   }
+
   .funding-title {
-    width: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .more-one {
+    font-size: large;
   }
 
   .funding {
-    width: 100%;
+    width: 90%;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
-  
+  .funding-one {
+    box-sizing: border-box;
+    background-color: bisque;
+  }
 
+  .funding-one img {
+    position: relative;
+    left: 10px;
+    bottom: 3px;
+    height: 70px;
+  }
+
+  .funding-two img {
+    position: relative;
+    left: 10px;
+    bottom: 3px;
+    height: 70px;
+  }
+
+  .funding-three img {
+    position: relative;
+    left: 10px;
+    bottom: 3px;
+    height: 70px;
+  }
+  .funding-two {
+    box-sizing: border-box;
+    background-color: bisque;
+  }
+  .funding-three {
+    box-sizing: border-box;
+    background-color: bisque;
+  }
+
+  .ring {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    margin-top: -89px;
+  }
+
+  .price {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: lightpink;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    margin-top: -16px;
+  }
+
+  .brief {
+    border-bottom: 1px solid darkgray;
+  }
 
   .funding-four {
     display: none;
+  }
+
+  p {
+    font-size: small;
+  }
+  .footer-icons {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(53, 50, 50);
+    color: white;
+  }
+
+  .footer-icons ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-icons li {
+    padding-top: 50px;
+  }
+
+  .footer-links {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    margin-top: 0px;
+    background-color: rgb(53, 50, 50);
+  }
+
+  .footer-links ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 9px;
+  }
+
+  .links a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer-links li {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+  }
+
+  .page-end {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: auto;
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: -10px;
+    padding-left: 100px;
+  }
+
+  .page-end p {
+    text-align: center;
+  }
+
+  .page-end img {
   }
 }
