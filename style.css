@@ -287,3 +287,144 @@ body {
     top: 10px;
   }
 }
+@media only screen and (min-width: 768px) {
+  .top-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+  }
+  .nav-one {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 10px;
+  }
+
+  .nav-two {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 10px;
+  }
+
+  .second-nav {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .second-left-nav {
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .middle-nav {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 5px;
+    color: darkgray;
+    font-size: 10px;
+  }
+
+  .tnw-logo {
+    width: 60px;
+    height: auto;
+    box-sizing: border-box;
+    background-color: black;
+    margin-bottom: 5px;
+    padding: 15px;
+  }
+
+  .search-icon {
+    color: darkgray;
+    box-sizing: border-box;
+    border-left: 1px solid gray;
+    padding: 15px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+  }
+
+  .nav-three {
+    width: 100%;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+  }
+
+  .highlights {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+  }
+  .high2-3 {
+    display: grid;
+    grid-row: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  .highlights1 {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
+  }
+  .highlights1 img {
+    display: none;
+  }
+  .highlights2 {
+    display: block;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Gemini2-duplicates-monitor-alert-e1611566958933-796x420.png");
+  }
+
+  .highlights3 {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  h3 {
+    color: red;
+    font-size: 25px;
+  }
+
+  .more {
+    color: red;
+  }
+
+  .funding {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
