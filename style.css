@@ -211,8 +211,6 @@ body {
     padding-bottom: 20px;
   }
 
-  .klook {
-    margin-top: -;
   }
   .footer-icons {
     box-sizing: border-box;
@@ -289,7 +287,7 @@ body {
     left: 24%;
     top: 10px;
   }
-}
+
 
 @media only screen and (min-width: 768px) {
   .top-nav {
@@ -355,6 +353,8 @@ body {
     margin-bottom: 5px;
     padding: 15px;
   }
+
+  
 
   .search-icon {
     color: darkgray;
@@ -430,83 +430,15 @@ body {
   }
 
   .funding {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px;
-  }
-  .funding-one {
     width: 100%;
+    display: grid;
+    grid-template-columns: auto;
   }
+
+  
+
 
   .funding-four {
     display: none;
-  }
-  footer {
-    width: 100%;
-    box-sizing: border-box;
-  }
-  .footer-two {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .footer-icons {
-    box-sizing: border-box;
-    width: 100%;
-    height: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: rgb(53, 50, 50);
-    color: white;
-  }
-
-  .footer-icons ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .footer-icons li {
-    padding-top: 50px;
-  }
-  .footer-links {
-    box-sizing: border-box;
-    width: 100%;
-    height: auto;
-    padding-top: 10px;
-    background-color: rgb(53, 50, 50);
-  }
-
-  .footer-links ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 9px;
-  }
-
-  .links a {
-    text-decoration: none;
-    color: white;
-  }
-
-  .footer-links li {
-    list-style-type: none;
-    text-decoration: none;
-    color: white;
-    padding-bottom: 10px;
-  }
-
-  .page-end {
-    width: 100%;
-    height: auto;
-    background-color: black;
-    color: white;
-    padding-top: 15px;
-    padding-bottom: 25px;
   }
 }
