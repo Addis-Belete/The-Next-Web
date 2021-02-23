@@ -1,7 +1,7 @@
 body {
   background-color: white;
 }
-@media only screen and (max-width: 760px) {
+
   .top-nav {
     display: none;
     width: 100%;
@@ -288,7 +288,7 @@ body {
     left: 24%;
     top: 10px;
   }
-}
+
 @media only screen and (min-width: 768px) {
   .top-nav {
     display: flex;
