@@ -1,7 +1,3 @@
-body {
-  background-color: white;
-}
-
 .top-nav {
   display: none;
   width: 100%;
@@ -74,7 +70,7 @@ body {
   padding: 10px;
   margin-bottom: 5px;
   margin-right: 5px;
- }
+}
 
 .nav-three {
   width: 100%;
@@ -98,7 +94,7 @@ body {
   background-color: bisque;
   background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
 }
-  
+
 .highlights1 img {
   display: none;
 }
@@ -135,162 +131,164 @@ h3 {
 
 .funding-title {
   background-color: white;
-  }
-  .funding {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: bisque;
-    height: auto;
-  }
+}
 
-  .funding-one {
-    margin-top: -110px;
-  }
+.funding {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+  height: auto;
+}
 
-  .funding-two {
-    margin-top: -110px;
-    box-sizing: border-box;
-    width: 100%;
-  }
+.funding-one {
+  margin-top: -110px;
+}
 
-  .funding-three {
-    margin-top: -110px;
-    box-sizing: border-box;
-    width: 100%;
-  }
+.funding-two {
+  margin-top: -110px;
+  box-sizing: border-box;
+  width: 100%;
+}
 
-  .funding-four {
-    display: none;
-    box-sizing: border-box;
-    width: 100%;
-  }
+.funding-three {
+  margin-top: -110px;
+  box-sizing: border-box;
+  width: 100%;
+}
 
-  .funding-one img {
-    position: relative;
-    left: 3%;
-    top: 120px;
-    z-index: 1;
-  }
+.funding-four {
+  display: none;
+  box-sizing: border-box;
+  width: 100%;
+}
 
-  .funding-two img {
-    position: relative;
-    left: 3%;
-    top: 130px;
-  }
+.funding-one img {
+  position: relative;
+  left: 3%;
+  top: 120px;
+  z-index: 1;
+}
 
-  .funding-three img {
-    position: relative;
-    left: 3%;
-    top: 130px;
-  }
-  .ring {
-    box-sizing: border-box;
-    width: 100%;
-    background-color: red;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 120px;
-  }
+.funding-two img {
+  position: relative;
+  left: 3%;
+  top: 130px;
+}
 
-  .price {
-    box-sizing: border-box;
-    background-color: lightpink;
-    padding: 20px;
-    padding-left: 120px;
-    margin-top: -30px;
-  }
+.funding-three img {
+  position: relative;
+  left: 3%;
+  top: 130px;
+}
 
-  .brief {
-    width: 100%;
-    box-sizing: border-box;
-    padding-left: 30px;
-    border-bottom: 1px solid darkgray;
-    margin-top: -20px;
-  }
-  .mobile {
-    box-sizing: border-box;
-    padding-left: 30px;
-    padding-bottom: 20px;
-  }
+.ring {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: red;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 120px;
+}
 
-  .footer-icons {
-    box-sizing: border-box;
-    width: 100%;
-    height: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: rgb(53, 50, 50);
-    color: white;
-  }
+.price {
+  box-sizing: border-box;
+  background-color: lightpink;
+  padding: 20px;
+  padding-left: 120px;
+  margin-top: -30px;
+}
 
-  .footer-icons ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.brief {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 30px;
+  border-bottom: 1px solid darkgray;
+  margin-top: -20px;
+}
 
-  .footer-icons li {
-    padding-top: 50px;
-  }
+.mobile {
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
 
-  .footer-links {
-    box-sizing: border-box;
-    width: 100%;
-    height: auto;
-    padding-top: 10px;
-    margin-top: 0px;
-    background-color: rgb(53, 50, 50);
-  }
+.footer-icons {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(53, 50, 50);
+  color: white;
+}
 
-  .footer-links ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 40px;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 9px;
-  }
+.footer-icons ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .links a {
-    text-decoration: none;
-    color: white;
-  }
+.footer-icons li {
+  padding-top: 50px;
+}
 
-  .footer-links li {
-    list-style-type: none;
-    text-decoration: none;
-    color: white;
-    padding-bottom: 10px;
-  }
+.footer-links {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  background-color: rgb(53, 50, 50);
+}
 
-  .page-end {
-    width: 100%;
-    height: auto;
-    background-color: black;
-    color: white;
-    padding-top: 15px;
-    padding-bottom: 25px;
-    margin-top: -10px;
-  }
+.footer-links ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 9px;
+}
 
-  .page-end p {
-    text-align: center;
-    position: relative;
-    bottom: 35px;
-    right: 20px;
-  }
+.links a {
+  text-decoration: none;
+  color: white;
+}
 
-  .page-end img {
-    position: relative;
-    left: 24%;
-    top: 10px;
-  }
+.footer-links li {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.page-end {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  margin-top: -10px;
+}
+
+.page-end p {
+  text-align: center;
+  position: relative;
+  bottom: 35px;
+  right: 20px;
+}
+
+.page-end img {
+  position: relative;
+  left: 24%;
+  top: 10px;
+}
 
 @media only screen and (min-width: 768px) {
   .top-nav {
@@ -302,6 +300,7 @@ h3 {
     color: white;
     box-sizing: border-box;
   }
+
   .nav-one {
     width: 300px;
     display: flex;
@@ -387,7 +386,7 @@ h3 {
 
   .high2-3 {
     display: grid;
-    grid-row: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-gap: 10px;
   }
 
@@ -426,10 +425,12 @@ h3 {
     width: 100%;
     color: red;
     font-size: 25px;
+    padding-left: 7px;
   }
 
   .more {
     color: red;
+    padding-left: 7px;
   }
 
   .funding-title {
@@ -437,6 +438,7 @@ h3 {
     margin-left: auto;
     margin-right: auto;
   }
+
   .more-one {
     font-size: large;
   }
@@ -448,6 +450,8 @@ h3 {
     grid-gap: 20px;
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 140px;
+    background-color: white;
   }
 
   .funding-one {
@@ -458,6 +462,7 @@ h3 {
   .funding-one img {
     position: relative;
     left: 10px;
+    top: 5px;
     bottom: 3px;
     height: 70px;
   }
@@ -465,6 +470,7 @@ h3 {
   .funding-two img {
     position: relative;
     left: 10px;
+    top: 5px;
     bottom: 3px;
     height: 70px;
   }
@@ -472,13 +478,16 @@ h3 {
   .funding-three img {
     position: relative;
     left: 10px;
+    top: 5px;
     bottom: 3px;
     height: 70px;
   }
+
   .funding-two {
     box-sizing: border-box;
     background-color: bisque;
   }
+
   .funding-three {
     box-sizing: border-box;
     background-color: bisque;
@@ -488,8 +497,8 @@ h3 {
     box-sizing: border-box;
     width: 100%;
     background-color: red;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 100px;
     margin-top: -89px;
   }
@@ -515,6 +524,7 @@ h3 {
   p {
     font-size: small;
   }
+
   .footer-icons {
     box-sizing: border-box;
     width: 100%;
@@ -529,7 +539,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    width: 300px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -543,7 +553,6 @@ h3 {
     width: 100%;
     height: auto;
     padding-top: 10px;
-    margin-top: 0px;
     background-color: rgb(53, 50, 50);
   }
 
@@ -552,10 +561,10 @@ h3 {
     justify-content: space-between;
     align-items: center;
     margin-top: 40px;
-    width: 300px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .links a {
@@ -571,311 +580,105 @@ h3 {
   }
 
   .page-end {
-    box-sizing: border-box;
-    width: 100%;
+    margin-top: -15px;
     display: flex;
-    justify-content: start;
+    justify-content: space-around;
     align-items: center;
-    height: auto;
-    background-color: black;
-    color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: -10px;
-    padding-left: 100px;
   }
 
   .page-end p {
-    text-align: center;
+    padding-top: 85px;
   }
 }
-@media only screen and (min-width: 992px) {
-  .top-nav {
-    display: flex;
+
+@media only screen and (min-width: 1024px) {
+  .funding {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .funding-one {
+    box-sizing: border-box;
+    background-color: bisque;
+  }
+
+  .funding-one img {
+    position: relative;
+    left: 10px;
+    top: 5px;
+    bottom: 3px;
+    height: 70px;
+  }
+
+  .funding-two img {
+    position: relative;
+    left: 10px;
+    top: 5px;
+    bottom: 3px;
+    height: 70px;
+  }
+
+  .funding-three img {
+    position: relative;
+    left: 10px;
+    top: 5px;
+    bottom: 3px;
+    height: 70px;
+  }
+
+  .funding-two {
+    box-sizing: border-box;
+    background-color: bisque;
+  }
+
+  .funding-three {
+    box-sizing: border-box;
+    background-color: bisque;
+  }
+
+  .ring {
+    box-sizing: border-box;
     width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    color: white;
-    box-sizing: border-box;
-  }
-  .nav-one {
-    width: 500px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    font-size: 15px;
+    background-color: red;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    margin-top: -89px;
   }
 
-  .nav-two {
-    width: 300px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    font-size: 12px;
-  }
-
-  .second-nav {
+  .price {
     box-sizing: border-box;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: -4px;
+    background-color: lightpink;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    margin-top: -16px;
   }
 
-  .second-left-nav {
-    width: 1000px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  .brief {
+    border-bottom: 1px solid darkgray;
   }
 
-  .middle-nav {
-    width: 800px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    list-style: none;
-    margin-bottom: 5px;
-    color: darkgray;
-    font-size: 15px;
-  }
-
-  .tnw-logo {
-    display: none;
-    width: 100px;
-    height: auto;
+  .funding-four {
+    display: block;
     box-sizing: border-box;
-    background-color: black;
-    margin-bottom: 5px;
-    padding: 15px;
+    background-color: bisque;
+    margin-top: -110px;
   }
 
-  .search-icon {
-    color: darkgray;
-    box-sizing: border-box;
-    border-left: 1px solid black;
-    padding: 10px;
-    margin-bottom: 5px;
-    margin-right: 5px;
+  .funding-four img {
+    position: relative;
+    left: 10px;
+    height: 70px;
+    top: 7px;
   }
 
   .nav-three {
-    width: 100%;
-    background-color: yellow;
-    color: black;
-    text-align: start;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    font-size: 12px;
-    margin-top: -5px;
-  }
-  .highlights {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-  }
-
-  .high2-3 {
-    display: grid;
-    grid-row: 1fr 1fr;
-    grid-gap: 10px;
-  }
-
-  .highlights1 {
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    margin-bottom: -1px;
-    box-sizing: border-box;
-    background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
+    text-align: left;
   }
 
   .highlights1 img {
     display: block;
-    color: white;
-    width: 200px;
-  }
-
-  .highlights2 {
-    display: block;
-    width: 100%;
-    height: auto;
-    box-sizing: border-box;
-    background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Gemini2-duplicates-monitor-alert-e1611566958933-796x420.png");
-  }
-
-  .highlights3 {
-    display: block;
-    box-sizing: border-box;
-    width: 100%;
-    height: auto;
-    background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-
-  .funding-title {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .more-one {
-    font-size: large;
-  }
-
-  .funding {
-    width: 90%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-
-  .funding-one {
-    box-sizing: border-box;
-    background-color: bisque;
-  }
-
-  .funding-one img {
-    position: relative;
-    left: 10px;
-    bottom: 3px;
-    height: 70px;
-  }
-
-  .funding-two img {
-    position: relative;
-    left: 10px;
-    bottom: 3px;
-    height: 70px;
-  }
-
-  .funding-three img {
-    position: relative;
-    left: 10px;
-    bottom: 3px;
-    height: 70px;
-  }
-  .funding-two {
-    box-sizing: border-box;
-    background-color: bisque;
-  }
-  .funding-three {
-    box-sizing: border-box;
-    background-color: bisque;
-  }
-
-  .ring {
-    box-sizing: border-box;
-    width: 100%;
-    background-color: red;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 100px;
-    margin-top: -89px;
-  }
-
-  .price {
-    box-sizing: border-box;
-    width: 100%;
-    background-color: lightpink;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 100px;
-    margin-top: -16px;
-  }
-
-  .brief {
-    border-bottom: 1px solid darkgray;
-  }
-
-  .funding-four {
-    box-sizing: border-box;
-    background-color: bisque;
-  }
-
-  p {
-    font-size: small;
-  }
-  .footer-icons {
-    box-sizing: border-box;
-    width: 100%;
-    height: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: rgb(53, 50, 50);
-    color: white;
-  }
-
-  .footer-icons ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .footer-icons li {
-    padding-top: 50px;
-  }
-
-  .footer-links {
-    box-sizing: border-box;
-    width: 100%;
-    height: auto;
-    padding-top: 10px;
-    margin-top: 0px;
-    background-color: rgb(53, 50, 50);
-  }
-
-  .footer-links ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 40px;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 9px;
-  }
-
-  .links a {
-    text-decoration: none;
-    color: white;
-  }
-
-  .footer-links li {
-    list-style-type: none;
-    text-decoration: none;
-    color: white;
-    padding-bottom: 10px;
-  }
-
-  .page-end {
-    box-sizing: border-box;
-    width: 100%;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    height: auto;
-    background-color: black;
-    color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: -10px;
-    padding-left: 100px;
-  }
-
-  .page-end p {
-    text-align: center;
   }
 }
