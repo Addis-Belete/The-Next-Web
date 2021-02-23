@@ -71,7 +71,7 @@ body {
     color: darkgray;
     box-sizing: border-box;
     border-left: 1px solid gray;
-    padding: 15px;
+    padding: 10px;
     margin-bottom: 5px;
     margin-right: 5px;
   }
@@ -84,6 +84,7 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 9px;
+    margin-top: -5px;
   }
 
   .highlights1 {
@@ -94,6 +95,7 @@ body {
     padding-bottom: 5px;
     margin-bottom: 10px;
     box-sizing: border-box;
+    background-color: bisque;
     background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
   }
   .highlights1 img {
@@ -128,21 +130,31 @@ body {
     color: red;
     position: relative;
   }
+  .funding-title {
+    background-color: white;
+  }
+  .funding {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    height: auto;
+  }
 
   .funding-one {
-    box-sizing: border-box;
-    width: 100%;
+    margin-top: -110px;
   }
 
   .funding-two {
+    margin-top: -110px;
     box-sizing: border-box;
     width: 100%;
   }
 
   .funding-three {
+    margin-top: -110px;
     box-sizing: border-box;
     width: 100%;
-    border: 1px solid darkgray;
   }
 
   .funding-four {
@@ -154,7 +166,8 @@ body {
   .funding-one img {
     position: relative;
     left: 3%;
-    top: 130px;
+    top: 120px;
+    z-index: 1;
   }
 
   .funding-two img {
@@ -168,50 +181,39 @@ body {
     left: 3%;
     top: 130px;
   }
-
   .ring {
     box-sizing: border-box;
-    background-color: red;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: large;
-    padding-left: 110px;
+    background-color: red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 120px;
   }
 
   .price {
     box-sizing: border-box;
-    display: inline-block;
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: wheat;
-    padding-left: 110px;
-  }
-
-  .series {
-    width: 100%;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    background-color: wheat;
-    text-align: center;
-    font-size: 9px;
-    color: darkgray;
+    background-color: lightpink;
+    padding: 20px;
+    padding-left: 120px;
+    margin-top: -30px;
   }
 
   .brief {
+    width: 100%;
     box-sizing: border-box;
-    border-bottom: 1px solid darkgoldenrod;
     padding-left: 30px;
-    padding-bottom: 20px;
+    border-bottom: 1px solid darkgray;
+    margin-top: -20px;
   }
-
   .mobile {
     box-sizing: border-box;
     padding-left: 30px;
     padding-bottom: 20px;
   }
 
+  .klook {
+    margin-top: -;
+  }
   .footer-icons {
     box-sizing: border-box;
     width: 100%;
@@ -272,6 +274,7 @@ body {
     color: white;
     padding-top: 15px;
     padding-bottom: 25px;
+    margin-top: -10px;
   }
 
   .page-end p {
@@ -287,6 +290,7 @@ body {
     top: 10px;
   }
 }
+
 @media only screen and (min-width: 768px) {
   .top-nav {
     display: flex;
@@ -441,6 +445,10 @@ body {
     width: 100%;
     box-sizing: border-box;
   }
+  .footer-two {
+    display: flex;
+    flex-direction: column;
+  }
 
   .footer-icons {
     box-sizing: border-box;
@@ -468,7 +476,6 @@ body {
     width: 100%;
     height: auto;
     padding-top: 10px;
-    margin-top: 0px;
     background-color: rgb(53, 50, 50);
   }
 
@@ -476,7 +483,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 40px;
     width: 300px;
     margin-left: auto;
     margin-right: auto;
