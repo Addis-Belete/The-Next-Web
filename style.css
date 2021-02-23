@@ -2,136 +2,139 @@ body {
   background-color: white;
 }
 
-  .top-nav {
-    display: none;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    background-color: black;
-    color: white;
-    box-sizing: border-box;
-  }
+.top-nav {
+  display: none;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+}
 
-  .nav-one {
-    width: 300px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    font-size: 10px;
-  }
+.nav-one {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 10px;
+}
 
-  .nav-two {
-    width: 200px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    font-size: 10px;
-  }
+.nav-two {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 10px;
+}
 
-  .second-nav {
-    box-sizing: border-box;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+.second-nav {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .second-left-nav {
-    width: 500px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
+.second-left-nav {
+  width: 500px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
 
-  .middle-nav {
-    width: 400px;
-    display: none;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    margin-bottom: 5px;
-    color: darkgray;
-    font-size: 9px;
-  }
+.middle-nav {
+  width: 400px;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 5px;
+  color: darkgray;
+  font-size: 9px;
+}
 
-  .tnw-logo {
-    width: 60px;
-    height: auto;
-    box-sizing: border-box;
-    background-color: black;
-    margin-bottom: 5px;
-    padding: 15px;
-  }
+.tnw-logo {
+  width: 60px;
+  height: auto;
+  box-sizing: border-box;
+  background-color: black;
+  margin-bottom: 5px;
+  padding: 15px;
+}
 
-  .search-icon {
-    color: darkgray;
-    box-sizing: border-box;
-    border-left: 1px solid gray;
-    padding: 10px;
-    margin-bottom: 5px;
-    margin-right: 5px;
-  }
+.search-icon {
+  color: darkgray;
+  box-sizing: border-box;
+  border-left: 1px solid gray;
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+ }
 
-  .nav-three {
-    width: 100%;
-    background-color: yellow;
-    color: black;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 9px;
-    margin-top: -5px;
-  }
+.nav-three {
+  width: 100%;
+  background-color: yellow;
+  color: black;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 9px;
+  margin-top: -5px;
+}
 
-  .highlights1 {
-    display: block;
-    width: 100%;
-    height: auto;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-    background-color: bisque;
-    background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
-  }
-  .highlights1 img {
-    display: none;
-  }
-  .highlights2 {
-    display: block;
-    width: 100%;
-    height: auto;
-    box-sizing: border-box;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Gemini2-duplicates-monitor-alert-e1611566958933-796x420.png");
-  }
+.highlights1 {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-color: bisque;
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
+}
+  
+.highlights1 img {
+  display: none;
+}
 
-  .highlights3 {
-    display: block;
-    box-sizing: border-box;
-    width: 100%;
-    height: auto;
-    background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-top: 10px;
-  }
+.highlights2 {
+  display: block;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Gemini2-duplicates-monitor-alert-e1611566958933-796x420.png");
+}
 
-  h3 {
-    color: orangered;
-  }
+.highlights3 {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+}
 
-  .more {
-    color: red;
-    position: relative;
-  }
-  .funding-title {
-    background-color: white;
+h3 {
+  color: orangered;
+}
+
+.more {
+  color: red;
+  position: relative;
+}
+
+.funding-title {
+  background-color: white;
   }
   .funding {
     width: 100%;
