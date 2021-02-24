@@ -1,65 +1,69 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Project Name Next-Web
 
-> One paragraph statement about the project.
+> This is a replica of the The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](screencapture-addis0943-github-io-Perma-Website-Project-2021-02-23-17_42_02.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Major languages: HTML & CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+[Live Demo Link](https://addis0943.github.io/The-Next-Web/)
 
 ### Prerequisites
 
+- Computer
+- Internet Connection
+- basic Knowledge of Html and css
+
 ### Setup
+
+- Vs Code
+- Git
+- github
 
 ### Install
 
-### Usage
+- VS code
+- Git
+- Github
 
-### Run tests
+## To get local copy up and running follow these simple example steps
+
+- git clone https://github.com/Addis0943/The-Next-Web
+- cd The-Next-Web
+- git checkout -b
+
+### Linters.
+
+Install some dependencies by running the following command
+
+npm install --save-dev stylelint@13.3.x stylelint-scss@3.17.x stylelint-config-standard@20.0.x stylelint-csstree-validator
+
+Run the following command to check linters
+
+npx stylelint "\*_/_.{css,scss}"
 
 ### Deployment
 
-
+Install and run a live server plugin on your Text editor.
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubAddis0943](https://github.com/Addis0943) -[LinkedIn](https://www.linkedin.com/in/addis-belete-134b98191/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+**Author2**
+-Github: [@githubJulianaOsemeke](https://github.com/JulianaOsemeke) -(https://ng.linkedin.com/in/juliana-osemeke)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
 
 ## Show your support
 
@@ -67,10 +71,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to [Microverse](https://www.microverse.org/) for their readme template
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
