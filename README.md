@@ -8,7 +8,7 @@
        2. tablet
        3. desktop
 
-![screenshot](./parma website.png)
+![screenshot](screencapture-addis0943-github-io-Perma-Website-Project-2021-02-23-17_42_02.png)
 
 ## Built With
 
@@ -61,6 +61,9 @@ Install and run a live server plugin on your Text editor.
 👤 **Author1**
 
 - GitHub: [@githubAddis0943](https://github.com/Addis0943) -[LinkedIn](https://www.linkedin.com/in/addis-belete-134b98191/)
+
+**Author2**
+-Github: [@githubJulianaOsemeke](https://github.com/JulianaOsemeke) -(https://ng.linkedin.com/in/juliana-osemeke)
 
 ## 🤝 Contributing
 
