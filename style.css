@@ -236,7 +236,7 @@ h3 {
   background-color: lightpink;
   padding: 20px;
   padding-left: 120px;
-  margin-top: -30px;
+  margin-top: -35px;
 }
 
 .brief {
@@ -518,7 +518,6 @@ h3 {
   .funding-one {
     box-sizing: border-box;
     background-color: rgba(255, 0, 0, 0.208);
-    padding: 1rem;
   }
 
   .funding-one img {
@@ -572,7 +571,8 @@ h3 {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 100px;
-    margin-top: -16px;
+    margin-top: -21px;
+    font-size: small;
   }
 
   .brief {
@@ -715,9 +715,10 @@ h3 {
     width: 100%;
     background-color: lightpink;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     padding-left: 100px;
-    margin-top: -16px;
+    margin-top: -21px;
+    font-size: 9px;
   }
 
   .brief {
@@ -728,7 +729,6 @@ h3 {
     display: block;
     box-sizing: border-box;
     background-color: rgba(255, 0, 0, 0.208);
-    padding: 1rem;
     margin-top: -110px;
   }
 
@@ -743,5 +743,9 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .more-one {
+    padding-top: 20px;
   }
 }
