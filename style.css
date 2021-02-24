@@ -106,7 +106,12 @@
   margin-bottom: 10px;
   box-sizing: border-box;
   background-color: bisque;
-  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(43, 5, 5, 0.52),
+      rgba(117, 19, 93, 0.73)
+    ),
+    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
 }
 
 .highlights1 img {
@@ -438,7 +443,12 @@ h3 {
     padding-bottom: 5px;
     margin-bottom: -1px;
     box-sizing: border-box;
-    background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
+    background-image:  background-image: linear-gradient(
+      to bottom,
+      rgba(43, 5, 5, 0.52),
+      rgba(117, 19, 93, 0.73)
+    ),
+    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
   }
 
   .highlights1 img {
@@ -647,6 +657,52 @@ h3 {
 }
 
 @media only screen and (min-width: 1024px) {
+  .top-nav {
+    justify-content: space-between;
+  }
+
+  .nav-one {
+    width: 500px;
+  }
+
+  .nav-two {
+    width: 300px;
+    justify-content: space-around;
+  }
+
+  .event {
+    font-size: 15px;
+  }
+  .nav-three {
+    text-align: left;
+  }
+
+  .date-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .teusday {
+    display: inline;
+    color: darkgray;
+    font-size: 20px;
+  }
+
+  .highlights1 img {
+    display: block;
+    width: 80px;
+  }
+
+  .highlights1 {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(43, 5, 5, 0.52),
+        rgba(117, 19, 93, 0.73)
+      ),
+      url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
+  }
+
   .funding {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -727,13 +783,5 @@ h3 {
     left: 10px;
     height: 70px;
     top: 7px;
-  }
-
-  .nav-three {
-    text-align: left;
-  }
-
-  .highlights1 img {
-    display: block;
   }
 }
