@@ -64,14 +64,21 @@
 }
 
 .search-icon {
-  color: darkgray;
-  box-sizing: border-box;
-  border-left: 1px solid gray;
-  padding: 10px;
-  margin-bottom: 5px;
-  margin-right: 5px;
+  width: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
+.search {
+  border-left: 1px solid darkgray;
+  padding: 10px;
+}
+
+.menu {
+  border-left: 1px solid darkgray;
+  padding: 5px;
+}
 .nav-three {
   width: 100%;
   background-color: yellow;
@@ -248,7 +255,6 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 40px;
   width: 300px;
   margin-left: auto;
   margin-right: auto;
@@ -264,7 +270,8 @@ h3 {
   list-style-type: none;
   text-decoration: none;
   color: white;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  padding-top: -70px;
 }
 
 .page-end {
@@ -275,19 +282,21 @@ h3 {
   padding-top: 15px;
   padding-bottom: 25px;
   margin-top: -10px;
+  position: relative;
 }
 
 .page-end p {
-  text-align: center;
-  position: relative;
-  bottom: 35px;
-  right: 20px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: start;
+  padding-top: -30px;
 }
 
 .page-end img {
   position: relative;
-  left: 24%;
-  top: 10px;
+  left: 15%;
+  bottom: -47px;
 }
 
 @media only screen and (min-width: 768px) {
