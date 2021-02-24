@@ -1,3 +1,10 @@
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+}
+
 .top-nav {
   display: none;
   width: 100%;
@@ -6,6 +13,8 @@
   background-color: black;
   color: white;
   box-sizing: border-box;
+  padding: 10px;
+  margin-top: -10px;
 }
 
 .nav-one {
@@ -36,6 +45,7 @@
   align-items: center;
   border-top: 1px solid whitesmoke;
   border-right: 1px solid whitesmoke;
+  background-color: white;
 }
 
 .second-left-nav {
@@ -43,6 +53,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-top: -5px;
 }
 
 .middle-nav {
@@ -86,6 +97,7 @@
   border-left: 1px solid darkgray;
   padding: 5px;
 }
+
 .nav-three {
   width: 100%;
   background-color: yellow;
@@ -97,6 +109,10 @@
   margin-top: -5px;
 }
 
+.highlights {
+  margin-top: 75px;
+}
+
 .highlights1 {
   display: block;
   width: 100%;
@@ -105,8 +121,8 @@
   padding-bottom: 5px;
   margin-bottom: 10px;
   box-sizing: border-box;
-  background-color: bisque;
-  background-image: linear-gradient(
+  background:
+  /* top, transparent red, faked with gradient */ linear-gradient(
       to bottom,
       rgba(43, 5, 5, 0.52),
       rgba(117, 19, 93, 0.73)
@@ -209,6 +225,7 @@ h3 {
   box-sizing: border-box;
   width: 100%;
   background-color: red;
+  color: whitesmoke;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 120px;
@@ -291,28 +308,10 @@ h3 {
 }
 
 .page-end {
-  width: 100%;
-  height: auto;
   background-color: black;
+  padding: 1rem;
   color: white;
-  padding-top: 15px;
-  padding-bottom: 25px;
-  margin-top: -10px;
-  position: relative;
-}
-
-.page-end p {
-  width: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: start;
-  padding-top: -30px;
-}
-
-.page-end img {
-  position: relative;
-  left: 15%;
-  bottom: -47px;
+  margin-top: -12px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -428,6 +427,7 @@ h3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 15px;
+    margin-top: 120px;
   }
 
   .high2-3 {
@@ -443,12 +443,12 @@ h3 {
     padding-bottom: 5px;
     margin-bottom: -1px;
     box-sizing: border-box;
-    background-image:  background-image: linear-gradient(
-      to bottom,
-      rgba(43, 5, 5, 0.52),
-      rgba(117, 19, 93, 0.73)
-    ),
-    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
+    background-image: linear-gradient(
+        to bottom,
+        rgba(43, 5, 7, 0.52),
+        rgba(117, 19, 19, 0.73)
+      ),
+      url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
   }
 
   .highlights1 img {
@@ -516,7 +516,8 @@ h3 {
 
   .funding-one {
     box-sizing: border-box;
-    background-color: bisque;
+    background-color: rgba(255, 0, 0, 0.208);
+    padding: 1rem;
   }
 
   .funding-one img {
@@ -640,19 +641,7 @@ h3 {
   }
 
   .page-end {
-    margin-top: -15px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .page-end p {
-    width: 500px;
-    padding-top: 60px;
-  }
-
-  .page-end img {
-    margin-top: -30px;
+    text-align: center;
   }
 }
 
@@ -708,45 +697,6 @@ h3 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
-  .funding-one {
-    box-sizing: border-box;
-    background-color: bisque;
-  }
-
-  .funding-one img {
-    position: relative;
-    left: 10px;
-    top: 5px;
-    bottom: 3px;
-    height: 70px;
-  }
-
-  .funding-two img {
-    position: relative;
-    left: 10px;
-    top: 5px;
-    bottom: 3px;
-    height: 70px;
-  }
-
-  .funding-three img {
-    position: relative;
-    left: 10px;
-    top: 5px;
-    bottom: 3px;
-    height: 70px;
-  }
-
-  .funding-two {
-    box-sizing: border-box;
-    background-color: bisque;
-  }
-
-  .funding-three {
-    box-sizing: border-box;
-    background-color: bisque;
-  }
-
   .ring {
     box-sizing: border-box;
     width: 100%;
@@ -774,7 +724,8 @@ h3 {
   .funding-four {
     display: block;
     box-sizing: border-box;
-    background-color: bisque;
+    background-color: rgba(255, 0, 0, 0.208);
+    padding: 1rem;
     margin-top: -110px;
   }
 
@@ -783,5 +734,11 @@ h3 {
     left: 10px;
     height: 70px;
     top: 7px;
+  }
+
+  .funding-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
