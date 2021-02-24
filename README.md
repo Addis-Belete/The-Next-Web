@@ -1,12 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name Parma Website
+# Project Name Next-Web
 
-> This project is web responsive design of parma website. it is responsive for three break-points.
-
-       1. mobile
-       2. tablet
-       3. desktop
+> This is a replica of the The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.
 
 ![screenshot](screencapture-addis0943-github-io-Perma-Website-Project-2021-02-23-17_42_02.png)
 
@@ -16,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://addis0943.github.io/Perma-Website-Project/)
+[Live Demo Link](https://addis0943.github.io/The-Next-Web/)
 
 ### Prerequisites
 
@@ -38,9 +34,9 @@
 
 ## To get local copy up and running follow these simple example steps
 
-- git clone git@github.com:Addis0943/Sneak-peak-project.git
-- cd Sneak-peak-project
-- git checkout -bg
+- git clone https://github.com/Addis0943/The-Next-Web
+- cd The-Next-Web
+- git checkout -b
 
 ### Linters.
 
