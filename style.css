@@ -678,6 +678,56 @@ a {
   padding-left: 20px;
 }
 
+/* Styling for latest deals section for mobile */
+.latest-deals {
+  width: 90%;
+  margin: 0 auto
+}
+
+.latest-deal-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.latest-deal-top a {
+  color: #f00;
+}
+
+.latest-deal-top a:hover {
+  color: #000;
+}
+
+.latest-deals-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+}
+
+.item-image {
+  max-width: 100%;
+  display: block;
+}
+
+.latest-deal-item h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.red-hover:hover {
+  color: #f00;
+}
+
+.grey-text {
+  color: rgb(163, 157, 157);
+  font-size: 1.3rem;
+}
+
+.former-price {
+  text-decoration: line-through;
+  font-size: 1.1rem;
+  margin-right: 0.3rem;
+}
+
 @media only screen and (min-width: 768px) {
   .top-nav {
     display: flex;
@@ -864,7 +914,7 @@ a {
 
   .funding-title {
     width: 90%;
-    margin-left: 40px;
+    margin: 0 auto;
   }
 
   .hash {
@@ -1022,6 +1072,13 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 15px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .latest-header {
+    width: 90%;
+    margin: 0 auto;
   }
 
   .car {
@@ -1041,6 +1098,24 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* Styling for latest deals section for tablet */
+  .latest-deals-container {
+    grid-template-columns: auto auto auto;
+  }
+
+  /* Man standing in corner icon */
+  .fa-male {
+    position: fixed;
+    background-color: #00f;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 50%;
+    bottom: 3%;
+    right: 3%;
   }
 }
 
@@ -1164,5 +1239,14 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
+  }
+
+  /* Styling latest deals for Laptop screen*/
+  .latest-deals-container {
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .man-icon {
+    display: none;
   }
 }
