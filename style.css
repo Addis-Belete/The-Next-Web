@@ -121,8 +121,7 @@ header {
   padding-bottom: 20px;
   margin-bottom: 10px;
   box-sizing: border-box;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       to bottom,
       rgba(43, 5, 5, 0.52),
       rgba(117, 19, 93, 0.73)
@@ -339,6 +338,36 @@ a {
   margin-top: -12px;
 }
 
+/* Milistone 2 project */
+.car {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+
+.car img {
+  width: 80px;
+  height: 80px;
+}
+
+.drive {
+  margin-left: 15px;
+}
+
+.latest-header {
+  color: red;
+  font-size: 25px;
+}
+
+.hour {
+  color: darkgray;
+  font-size: small;
+}
+
+.name1 {
+  color: darkgray;
+}
+
 @media only screen and (min-width: 768px) {
   .top-nav {
     display: flex;
@@ -470,8 +499,7 @@ a {
     padding-top: 10px;
     padding-bottom: 5px;
     box-sizing: border-box;
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         to bottom,
         rgba(43, 5, 7, 0.52),
         rgba(117, 19, 19, 0.73)
@@ -723,8 +751,7 @@ a {
   }
 
   .highlights1 {
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         to bottom,
         rgba(43, 5, 5, 0.52),
         rgba(117, 19, 93, 0.73)
