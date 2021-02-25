@@ -370,7 +370,7 @@ a {
 
 /* Styling for latest deals section for mobile */
 .latest-deals {
-  width: 98%;
+  width: 90%;
   margin: 0 auto
 }
 
@@ -398,8 +398,24 @@ a {
   display: block;
 }
 
+.latest-deal-item h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .red-hover:hover {
   color: #f00;
+}
+
+.grey-text {
+  color: rgb(163, 157, 157);
+  font-size: 1.3rem;
+}
+
+.former-price {
+  text-decoration: line-through;
+  font-size: 1.1rem;
+  margin-right: 0.3rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -763,7 +779,18 @@ a {
   /* Styling for latest deals section for tablet */
   .latest-deals-container {
     grid-template-columns: auto auto auto;
-}
+  }
+
+  /* Man standing in corner icon */
+  .fa-male {
+    position: fixed;
+    background-color: #00f;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 50%;
+    bottom: 3%;
+    right: 3%;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -889,5 +916,9 @@ a {
   /* Styling latest deals for Laptop screen*/
   .latest-deals-container {
     grid-template-columns: auto auto auto auto;
+  }
+
+  .man-icon {
+    display: none;
   }
 }
