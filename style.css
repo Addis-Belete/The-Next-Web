@@ -979,6 +979,10 @@ a {
   .drive {
     margin-left: 0px;
   }
+  .categories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -1099,5 +1103,10 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 15px;
+  }
+
+  .categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
