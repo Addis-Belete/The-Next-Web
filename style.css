@@ -681,7 +681,7 @@ a {
 /* Styling for latest deals section for mobile */
 .latest-deals {
   width: 90%;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .latest-deal-top {
@@ -1241,7 +1241,7 @@ a {
     grid-gap: 20px;
   }
 
-  /* Styling latest deals for Laptop screen*/
+  /* Styling latest deals for Laptop screen */
   .latest-deals-container {
     grid-template-columns: auto auto auto auto;
   }
