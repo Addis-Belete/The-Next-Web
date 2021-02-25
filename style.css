@@ -535,6 +535,94 @@ a {
   padding-left: 20px;
 }
 
+.categories-white5 {
+  box-sizing: border-box;
+  background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/open-source-code-gq-368x276.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 200px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+
+.categories-red5 {
+  box-sizing: border-box;
+  background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/google-logo-podium.png);
+  background-position: 550px;
+  background-repeat: no-repeat;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-size: 180px;
+  background-color: rgb(223, 205, 183);
+  padding-left: 20px;
+}
+
+.categories-white6 {
+  box-sizing: border-box;
+  background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/zoom-fundraising-gq-368x276.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 200px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+
+.categories-red6 {
+  box-sizing: border-box;
+  background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/open-source-code-gq-368x276.png);
+  background-position: 550px;
+  background-repeat: no-repeat;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-size: 180px;
+  background-color: rgb(223, 205, 183);
+  padding-left: 20px;
+}
+
+.categories-white7 {
+  box-sizing: border-box;
+  background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 200px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+
+.categories-red7 {
+  box-sizing: border-box;
+  background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/hummer-ev-future-car-love-hate-next-gmc-gm-ultium.jpg);
+  background-position: 550px;
+  background-repeat: no-repeat;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-size: 180px;
+  background-color: rgb(223, 205, 183);
+  padding-left: 20px;
+}
+
+.categories-white8 {
+  box-sizing: border-box;
+  background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/amplified-368x276.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 200px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+
+.categories-red8 {
+  box-sizing: border-box;
+  background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/bloodlines.jpg);
+  background-position: 550px;
+  background-repeat: no-repeat;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-size: 180px;
+  background-color: rgb(223, 205, 183);
+  padding-left: 20px;
+}
+
 @media only screen and (min-width: 768px) {
   .top-nav {
     display: flex;
