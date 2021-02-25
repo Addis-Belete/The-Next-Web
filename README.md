@@ -4,7 +4,7 @@
 
 > This is a replica of the The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.
 
-![screenshot](screencapture-addis0943-github-io-Perma-Website-Project-2021-02-23-17_42_02.png)
+![screenshot](./app-screenshot-2.png)
 
 ## Built With
 
@@ -58,8 +58,13 @@ Install and run a live server plugin on your Text editor.
 
 - GitHub: [@githubAddis0943](https://github.com/Addis0943) -[LinkedIn](https://www.linkedin.com/in/addis-belete-134b98191/)
 
-**Author2**
--Github: [@githubJulianaOsemeke](https://github.com/JulianaOsemeke) -(https://ng.linkedin.com/in/juliana-osemeke)
+👤 **Author2**
+
+- Github: [@githubJulianaOsemeke](https://github.com/JulianaOsemeke) -(https://ng.linkedin.com/in/juliana-osemeke)
+
+👤 **Author3**
+
+- GitHub: [@KabohaJeanMark](https://github.com/KabohaJeanMark) - LinkedIn: [Jean Mark Kaboha](https://www.linkedin.com/in/jean-mark-kaboha-software-engineer/)
 
 ## 🤝 Contributing
 
