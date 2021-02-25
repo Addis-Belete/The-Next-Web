@@ -707,6 +707,23 @@ a {
   }
 
   /* Milistone 2 project */
+  .latest-news {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+  }
+  .car {
+    display: inline-block;
+  }
+
+  .car img {
+    width: 100%;
+    height: 150px;
+  }
+
+  .drive {
+    margin-left: 0px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -823,29 +840,9 @@ a {
     display: grid;
     grid-template-rows: 1fr 1fr;
   }
-
-  .latest-one {
+  .latest-news {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
-  }
-
-  .latest-two {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
-  }
-
-  .car {
-    display: inline-block;
-  }
-
-  .car img {
-    width: 100%;
-    height: 120px;
-  }
-
-  .drive {
-    margin-left: 0px;
+    grid-gap: 15px;
   }
 }
