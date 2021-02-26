@@ -242,6 +242,7 @@ a {
 }
 
 .ring {
+  box-sizing: border-box;
   width: 100%;
   background-color: red;
   color: whitesmoke;
@@ -251,6 +252,7 @@ a {
 }
 
 .price {
+  box-sizing: border-box;
   background-color: lightpink;
   padding: 20px;
   padding-left: 120px;
@@ -879,7 +881,6 @@ a {
   }
 
   .ring {
-    box-sizing: border-box;
     width: 100%;
     background-color: red;
     padding-top: 15px;
@@ -889,7 +890,6 @@ a {
   }
 
   .price {
-    box-sizing: border-box;
     width: 100%;
     background-color: lightpink;
     padding-top: 15px;
