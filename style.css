@@ -121,8 +121,7 @@ header {
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 10px;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       to bottom,
       rgba(43, 5, 5, 0.52),
       rgba(117, 19, 93, 0.73)
@@ -368,8 +367,7 @@ a {
 }
 
 .categories-red {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to bottom,
       rgba(152, 154, 163, 0.52),
       rgb(7, 1, 5)
@@ -463,8 +461,7 @@ a {
 }
 
 .categories-white1 {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to bottom,
       rgba(152, 154, 163, 0.52),
       rgb(7, 1, 5)
@@ -477,8 +474,7 @@ a {
 }
 
 .categories-white2 {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to bottom,
       rgba(152, 154, 163, 0.52),
       rgb(7, 1, 5)
@@ -491,8 +487,7 @@ a {
 }
 
 .categories-white3 {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to bottom,
       rgba(152, 154, 163, 0.52),
       rgb(7, 1, 5)
@@ -505,8 +500,7 @@ a {
 }
 
 .categories-white4 {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to bottom,
       rgba(152, 154, 163, 0.52),
       rgb(7, 1, 5)
@@ -519,8 +513,7 @@ a {
 }
 
 .categories-white5 {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to bottom,
       rgba(152, 154, 163, 0.52),
       rgb(7, 1, 5)
@@ -533,8 +526,7 @@ a {
 }
 
 .categories-white6 {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to bottom,
       rgba(152, 154, 163, 0.52),
       rgb(7, 1, 5)
@@ -547,8 +539,7 @@ a {
 }
 
 .categories-white7 {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to bottom,
       rgba(152, 154, 163, 0.52),
       rgb(7, 1, 5)
@@ -561,8 +552,7 @@ a {
 }
 
 .categories-white8 {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to bottom,
       rgba(152, 154, 163, 0.52),
       rgb(7, 1, 5)
@@ -645,7 +635,7 @@ a {
 }
 
 /* TABLET */
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 768px) {
   .top-nav {
     display: flex;
     width: 100%;
@@ -771,8 +761,7 @@ a {
     height: 430px;
     padding-top: 10px;
     padding-bottom: 5px;
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         to bottom,
         rgba(43, 5, 7, 0.52),
         rgba(117, 19, 19, 0.73)
@@ -1038,7 +1027,7 @@ a {
 }
 
 /* LAPTOP */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1024px) {
   .top-nav {
     justify-content: space-between;
   }
@@ -1082,8 +1071,7 @@ a {
   }
 
   .highlights1 {
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         to bottom,
         rgba(43, 5, 5, 0.52),
         rgba(117, 19, 93, 0.73)
