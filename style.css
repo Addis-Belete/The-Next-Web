@@ -1,4 +1,4 @@
-html {
+* {
   box-sizing: border-box;
 }
 
@@ -242,7 +242,6 @@ a {
 }
 
 .ring {
-  box-sizing: border-box;
   width: 100%;
   background-color: red;
   color: whitesmoke;
@@ -252,7 +251,6 @@ a {
 }
 
 .price {
-  box-sizing: border-box;
   background-color: lightpink;
   padding: 20px;
   padding-left: 120px;
@@ -640,6 +638,10 @@ a {
   text-decoration: line-through;
   font-size: 0.9rem;
   margin-right: 0.3rem;
+}
+
+.man-icon {
+  display: none;
 }
 
 /* TABLET */
