@@ -728,7 +728,8 @@ a {
   margin-right: 0.3rem;
 }
 
-@media only screen and (min-width: 768px) {
+/* TABLET */
+@media only screen and (min-width: 481px) {
   .top-nav {
     display: flex;
     width: 100%;
@@ -1119,7 +1120,8 @@ a {
   }
 }
 
-@media only screen and (min-width: 1024px) {
+/* LAPTOP */
+@media only screen and (min-width: 769px) {
   .top-nav {
     justify-content: space-between;
   }
