@@ -642,6 +642,10 @@ a {
   margin-right: 0.3rem;
 }
 
+.man-icon {
+  display: none;
+}
+
 /* TABLET */
 @media only screen and (min-width: 481px) {
   .top-nav {
